@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+*.sql
+*.csv
+*.csv.gz
+!output/fds_realtime_demo.csv.gz
+*.log
+.env
+.venv/
+venv/

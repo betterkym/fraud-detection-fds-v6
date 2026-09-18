@@ -1,0 +1,25 @@
+# 비밀정보 / 환경변수
+.env*
+!.env.example
+
+# Python / Jupyter 캐시
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 데이터 / 모델 / 대용량 산출물
+.cache/
+models/
+output/
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.csv
+*.sql
+*.zip
+*.gz
+
+# 로그
+*.log
+*.tmp

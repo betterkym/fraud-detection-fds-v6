@@ -1,0 +1,13 @@
+name: fds-v6-local
+
+services:
+  fds-mvp:
+    image: fds-v6-local:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: fds-v6-local
+    init: true
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
